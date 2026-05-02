@@ -1,0 +1,3 @@
+-javaagent:pyroscope/pyroscope.jar
+-Dpyroscope.application.name=demo
+-Dpyroscope.server.address=http://localhost:4040
