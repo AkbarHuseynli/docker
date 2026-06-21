@@ -2,7 +2,7 @@ services:
   temporal:
     image: temporalio/temporal
     container_name: temporal
-    command: server start-dev --ip 0.0.0.0
+    command: server start-dev --ip 0.0.0.0 --namespace mynamespace
     ports:
       - "7233:7233"
       - "8233:8233"
